@@ -1,0 +1,51 @@
+h3 {
+    font-family: Arial;
+}
+
+p {
+    margin: 0;
+    display: block;
+    padding: 0;
+}
+
+.nineA-red-square {
+    height: 70px;
+    width: 70px;
+    border: none;
+    background-color: red;
+}
+
+.nineB-green-circle {
+    height: 70px;
+    width: 70px;
+    border: none;
+    background-color: green;
+    border-radius: 35px;
+}
+
+.nineC-satisfied-div {
+    height: 90px;
+    width: 300px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(168, 168, 168);
+    padding-left: 15px;
+    font-family: Arial;
+    vertical-align: middle;
+    display: table-cell;
+    align-items: center;
+}
+
+.nineD-youtube-music {
+    height: 65px;
+    width: 300px;
+    border: none;
+    background-color: rgb(46, 46, 46);
+    color: rgb(244, 244, 244);
+    padding-inline: 15px;
+    padding-block: 20px;
+    font-family: Arial;
+    display: table-cell;
+    align-items: center;
+    vertical-align: middle;
+}

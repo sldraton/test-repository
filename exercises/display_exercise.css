@@ -1,0 +1,148 @@
+.eightA-name,
+.eightA-email {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.eightB-description {
+    display: inline-block;
+    width: 200px;
+    vertical-align: middle;
+}
+
+.eightB-yes,
+.eightB-no {
+    vertical-align: middle;
+}
+
+.eightC-google-logo {
+    display: block;
+    width: 150px;
+    margin: auto;
+}
+
+.eightC-search {
+    display: block;
+    width: 400px;
+    height: 35px;
+    border-radius: 17.5px;
+    border: none;
+    box-shadow: 0px 0px 5px 2px rgb(0, 0, 0, 0.15);
+    margin-top: 10px;
+    padding-left: 15px;
+    margin-inline: auto;
+}
+
+.eightC-search:focus {
+    outline: none;
+    color: gray;
+    box-shadow: 0px 0px 5px 1px rgb(0, 0, 0, 0.35);
+}
+
+.eightC-div {
+    text-align: center;
+    width: 450px;
+}
+
+.eightD-first-name,
+.eightD-last-name {
+    display: inline-block;
+    height: 20px;
+    border: solid;
+    border-color: gray;
+    border-width: 1px;
+    width: 120px;
+    margin-right: 3px;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.eightD-email {
+    display: block;
+    height: 20px;
+    width: 263px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.eightD-signup {
+    height: 40px;
+    width: 280px;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: rgb(0, 102, 255);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.25s;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.eightD-first-name:focus,
+.eightD-last-name:focus,
+.eightD-email:focus {
+    outline-style: solid;
+    outline-color: rgb(0, 86, 215);
+    outline-width: 1px;
+}
+
+.eightD-signup:active {
+    background-color: rgb(0, 86, 215);
+}
+
+.eightE-request-title {
+    font-family: Arial;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.eightE-pickup,
+.eightE-destination {
+    display: block;
+    height: 40px;
+    width: 300px;
+    border: none;
+    background-color: rgb(242, 242, 242);
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+
+.eightE-request-button {
+    margin-top: 25px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color: rgb(11, 11, 11);
+    color: whitesmoke;
+    cursor: pointer;
+    transition: opacity 0.30s;
+    display: inline-block;
+}
+
+.eightE-request-button:hover {
+    opacity: 0.8;
+}
+
+.eightE-schedule-button {
+    margin-left: 15px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color: rgb(242, 242, 242);
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.30s,
+    color 0.30s;
+}
+
+.eightE-schedule-button:hover {
+    background-color: rgb(186, 186, 186);
+    color: white;
+}

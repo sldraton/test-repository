@@ -1,0 +1,130 @@
+p {
+    margin-block: 0;
+    font-family: Arial;
+}
+
+.main-div {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.profile-section {
+    width: 21%;
+    display: inline-flex;
+    height: 100%;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.profile-info {
+    width: 46%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 1%;
+}
+
+.follow-section {
+    width: 29%;
+    display: inline-flex;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.profile-picture {
+    width: 80%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.name {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.subheader {
+    font-size: 15px;
+    color: rgb(161, 161, 161);
+}
+
+.additional-info {
+    font-size: 12px;
+    color: rgb(161, 161, 161);
+}
+
+.follow-button {
+    height: 30px;
+    width: 80%;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.follow-button:hover {
+    background-color: rgb(0, 108, 208);
+}
+
+.profile-preview {
+    margin-block: 12px;
+    margin-inline: 10px;
+    display: inline-block;
+    height: 270px;
+    width: 170px;
+    box-shadow: 0px 1px 3px 2px rgb(0,0,0,0.2);
+}
+
+.profile-square {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.profile-thumbnail {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.profile-lower-section {
+    padding-left: 5px;
+    padding-top: 4px;
+}
+
+.mutual-picture-section {
+    display: inline-flex;
+    width: 19%;
+    vertical-align: middle;
+}
+
+.mutual-picture {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.mutual-friend-section {
+    display: inline-flex;
+    width: 78%;
+    color: rgb(140, 140, 140);
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.add-button-section {
+    margin-top: 8px;
+}
+
+.add-button {
+    height: 27px;
+    width: 55%;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(0, 123, 255);
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+}

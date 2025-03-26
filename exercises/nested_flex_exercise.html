@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nested Flexbox</title>
+        <link rel="stylesheet" href="/exercises/nested_flex_exercise.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="flexA-container">
+            <div class="leftA">
+                <p class="black-bg">item1</p>
+            </div>
+            <div class="rightA"></div>
+        </div>
+
+        <div class="flexB-container">
+            <div class="leftB"></div>
+            <div class="rightB">
+                <div class="Brow1">row1</div>
+                <div class="Brow2">
+                    <div class="black-bg">row2</div>
+                    <div class="black-bg">row2</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="all-container">
+            <p class="all-inboxes">ALL INBOXES</p>
+            <div class="inboxes-grid">
+                <div class="inbox-flex">
+                    <div class="image-container">
+                        <img class="profile-picture" src="/thumbnail_exercise/cat-1.jpg">
+                    </div>
+                    <div class="profile-info">
+                        <div class="header-section">
+                            <p class="header">Chewy Promotions</p>
+                            <p class="time">4:58 PM</p>
+                        </div>
+                        <p class="subheader">Biggest sales of the year!</p>
+                        <p class="content">Hey there! We're writing to tell you about our product</p>
+                    </div>
+                </div>
+
+                <div class="inbox-flex">
+                    <div class="image-container">
+                        <img class="profile-picture" src="/thumbnail_exercise/cat-2.webp">
+                    </div>
+                    <div class="profile-info">
+                        <div class="header-section">
+                            <p class="header">Best Buy</p>
+                            <p class="time">12:32 PM</p>
+                        </div>
+                        <p class="subheader">Your Best Buy eReceipt</p>
+                        <p class="content">Thank you for shopping at Best Buy, here is your receipt</p>
+                    </div>
+                </div>
+
+                <div class="inbox-flex">
+                    <div class="image-container">
+                        <img class="profile-picture" src="/thumbnail_exercise/cat-3.webp">
+                    </div>
+                    <div class="profile-info">
+                        <div class="header-section">
+                            <p class="header">Netflix</p>
+                            <p class="time">9:00 AM</p>
+                        </div>
+                        <p class="subheader">Here's what's coming soon to Netflix</p>
+                        <p class="content">Brand new movies and shows, old favorites, and more movies to come</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

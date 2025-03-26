@@ -1,0 +1,140 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-a {
+    display: grid;
+    grid-template-columns: 200px 75px;
+    margin-bottom: 30px;
+}
+
+.grid-b{
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+    margin-bottom: 30px;
+}
+
+.grid-c {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+    margin-bottom: 30px;
+}
+
+.grid-d {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 18px;
+    row-gap: 30px;
+    height: fit-content;
+}
+
+.name {
+    font-size: 15px;
+    font-weight: bold;
+    margin-block: 4px;
+}
+
+.profile-preview {
+    display: grid;
+    box-shadow: 0px 1px 3px 2px rgb(0,0,0,0.2);
+    grid-template-rows: auto 1fr;
+    height: fit-content;
+}
+
+.profile-thumbnail {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.profile-lower-section {
+    padding-block: 5px;
+    padding-left: 8px;
+    vertical-align: middle;
+}
+
+.mutual-section {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+}
+
+.mutual-picture {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.mutual-friend-info {
+    color: rgb(140, 140, 140);
+    font-size: 12px;
+    padding-left: 7px;
+}
+
+.mutual-picture-section {
+    align-items: center;
+}
+
+.mutual-picture-section,
+.mutual-friend-section {
+    align-items: center;
+}
+
+.add-button-section {
+    display: grid;
+    margin-top: 8px;
+    grid-template-columns: 2fr 3fr;
+    padding-bottom: 0;
+}
+
+.add-button {
+    height: 27px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(0, 123, 255);
+    color: white;
+    cursor: pointer;
+    font-size: 0.7rem;
+}
+
+@media screen and (max-width: 770px) {
+    .add-button-section {
+        display: grid;
+        margin-top: 8px;
+        grid-template-columns: 2fr 2fr;
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .add-button-section {
+        display: grid;
+        margin-top: 8px;
+        grid-template-columns: 3fr 1fr;
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .grid-d {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 18px;
+        row-gap: 30px;
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .grid-d {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 18px;
+        row-gap: 30px;
+        height: fit-content;
+    }
+}

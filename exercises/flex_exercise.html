@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flexbox Exercise</title>
+        <link rel="stylesheet" href="/exercises/flex_exercise.css">
+    </head>
+    <body>
+        <div style="display: flex;">
+            <div style="
+                background-color: lightblue;
+                width: 200px;
+                ">
+                200px
+            </div>
+            <div style="
+            background-color: lightpink;
+            width: 75px;
+            ">
+                75px
+            </div>
+        </div>
+
+        <div style="display: flex; margin-block: 20px;">
+            <div style="background-color: lightblue;
+                width: 50px;
+            ">
+                item1
+            </div>
+            <div style="background-color: lightpink;
+                flex: 1;
+            ">
+                item2
+            </div>
+            <div style="background-color: lightblue;
+                width: 75px;
+            ">
+                item3
+            </div>
+        </div>
+
+        <div style="display: flex; justify-content: space-between;">
+            <div style="background-color: lightcoral;">item1</div>
+            <div style="background-color: lightcoral;">item2</div>
+            <div style="background-color: lightcoral;">item3</div>
+            <div style="background-color: lightcoral;">item4</div>
+        </div>
+
+        <div style="display: flex;
+            height: 50px;
+            border: solid;
+            border-color: gray;
+            justify-content: space-between;
+            align-items: center;
+            margin-block: 20px;
+        ">
+        <div style="background-color: lightpink;">item1</div>
+        <div style="background-color: lightpink;">item2</div>
+        </div>
+
+        <div class="flexE-container">
+            <div class="options-section">
+                <div class="left-text">Home</div>
+                <div class="right-count">14</div>
+            </div>
+            <div class="options-section">
+                <div class="left-text">Notifications</div>
+                <div class="right-count">3</div>
+            </div>
+            <div class="options-section">
+                <div class="left-text">Messages</div>
+                <div class="right-count">5</div>
+            </div>
+        </div>
+
+        <div class="flexF-container">
+            <div class="home-section">Home</div>
+            <div class="search-section">
+                <input class="searchF" 
+                type="text"
+                placeholder="Search">
+            </div>
+            <div class="download-section">
+                <button class="download-button">Download</button>
+            </div>
+        </div>
+    </body>
+</html>

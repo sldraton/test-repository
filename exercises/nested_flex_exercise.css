@@ -1,0 +1,126 @@
+.flexA-container {
+    height: 40px;
+    margin-block: 20px;
+    display: flex;
+}
+
+.leftA {
+    background-color: lightpink;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightA {
+    background-color: lightblue;
+    width: 200px;
+}
+
+.black-bg {
+    background-color: black;
+    color: white;
+    margin: 0;
+    width: max-content;
+}
+
+.flexB-container {
+    display: flex;
+    margin-block: 20px;
+    height: 60px;
+}
+
+.leftB {
+    background-color: lightpink;
+    width: 100px;
+}
+
+.rightB {
+    background-color: lightblue;
+    width: 200px;
+}
+
+.Brow2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-container {
+    border: none;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.35);
+    padding: 10px;
+    max-width: 350px;
+}
+
+p {
+    margin: 0;
+    font-family: Roboto, Arial;
+    color: rgb(141, 141, 141);
+}
+
+.all-inboxes {
+    color: rgb(141, 141, 141);
+    font-size: 12px;
+    margin-bottom: 9px;
+}
+
+.inboxes-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.inbox-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 8px;
+}
+
+.image-container {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.profile-picture {
+    aspect-ratio: 1/1;
+    max-width: 45px;
+    max-height: 45px;
+    border-radius: 50%;
+    margin-inline: 5px;
+    object-fit: cover;
+}
+
+.profile-info {
+    display: grid;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.time {
+    font-size: 12px;
+}
+
+.subheader {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+
+.content {
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
